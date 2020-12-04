@@ -1,14 +1,14 @@
-// const WxHome = () => import('views/wx-home')
+const Scroll = () => import('views/scroll')
 
 const routes = [
-  // {
-  //   path: '/',
-  //   redirect: '/wx-home'
-  // },
-  // {
-  //   path: '/wx-home',
-  //   component: WxHome
-  // }
+  {
+    path: '/',
+    redirect: '/scroll'
+  },
+  {
+    path: '/scroll',
+    component: Scroll
+  }
 ]
 
 export default routes
